@@ -4,7 +4,7 @@ A small, persistent key-value store written in pure Python (standard library onl
 
 It uses the same core design as Bitcask, the storage engine behind Riak: an **append-only log on disk** plus an **in-memory hash index**. I built it to understand how databases store data durably and recover from crashes.
 
-[![tests](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
+[![tests](https://github.com/ali6oc/kvstore/actions/workflows/tests.yml/badge.svg)](https://github.com/ali6oc/kvstore/actions/workflows/tests.yml)
 
 ## Features
 
